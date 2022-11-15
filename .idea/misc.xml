@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable-v24/notification_circle.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable-v24/shape_login_bottom_sheet.xml" value="0.1398148148148148" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/bottom_drawable.xml" value="0.16203703703703703" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/btn_red_rect.xml" value="0.18611111111111112" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/checkbox_background.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/custom_strike_through.xml" value="0.19230769230769232" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/edittext_enable.xml" value="0.14907407407407408" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/ic_back_white.xml" value="0.18888888888888888" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/ic_dark_like.xml" value="0.19230769230769232" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/ic_heart_light.xml" value="0.19230769230769232" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/ic_minus.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/ic_plus.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/line.xml" value="0.19230769230769232" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/login_button_bk.xml" value="0.14907407407407408" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/notification_circle.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/offer_red_rect.xml" value="0.19230769230769232" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/relate_trans_shape.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/roundfull.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/roundupper.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/size_rect.xml" value="0.18611111111111112" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/size_red_rect.xml" value="0.1953125" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/white_home_rect.xml" value="0.19230769230769232" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/drawable/white_light_rect.xml" value="0.13425925925925927" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/activity_product_detail.xml" value="0.13405797101449277" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/activity_splash.xml" value="0.10144927536231885" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/base_activity.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/bottom_sheet_login.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/cart_model.xml" value="0.152" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/category_model.xml" value="0.15307971014492755" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/demo.xml" value="0.151268115942029" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/frag_all_img.xml" value="0.12907608695652173" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/fragment_cart.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/fragment_wish.xml" value="0.1" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/myprogress2.xml" value="0.10144927536231885" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/product_model.xml" value="0.176" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/quntity_picker_layout.xml" value="0.1322463768115942" />
+        <entry key="..\:/Android/IOTtechBazaar/app/src/main/res/layout/wish_list.xml" value="0.13722826086956522" />
+        <entry key="..\:/BackUp24_5_22/priyamSystem/Android/IOTtechBazaar/app/src/main/res/layout/activity_main.xml" value="0.24479166666666666" />
+        <entry key="..\:/BackUp24_5_22/priyamSystem/Android/IOTtechBazaar/app/src/main/res/layout/activity_splash.xml" value="0.24479166666666666" />
+        <entry key="..\:/BackUp24_5_22/priyamSystem/Android/IOTtechBazaar/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.24479166666666666" />
+        <entry key="..\:/BackUp24_5_22/priyamSystem/Android/IOTtechBazaar/app/src/main/res/layout/bottom_sheet_login.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

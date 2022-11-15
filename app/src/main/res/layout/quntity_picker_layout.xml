@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutQuantityPicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="7">
+
+    <ImageButton
+        android:id="@+id/imageButtonDecrement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_remove_circle_outline_black_24dp" />
+
+    <TextView
+        android:id="@+id/textViewQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonIncrement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_add_circle_outline_black_24dp" />
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linear_count"-->
+<!--        android:visibility="visible"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="@dimen/_10ssp"-->
+<!--        android:background="@drawable/size_red_rect">-->
+
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:background="#f2f2f2">-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/minus"-->
+<!--                android:layout_width="17dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:paddingLeft="4dp"-->
+<!--                android:paddingRight="4dp"-->
+<!--                android:src="@drawable/ic_minus"-->
+<!--                android:layout_gravity="center"/>-->
+
+<!--        </FrameLayout>-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/number"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="1"-->
+<!--            android:paddingLeft="8.7dp"-->
+<!--            android:paddingRight="8.7dp"-->
+<!--            android:paddingBottom="4dp"-->
+<!--            android:paddingTop="4dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:fontFamily="@font/roboto"-->
+<!--            android:textColor="@color/red"/>-->
+<!--        <FrameLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:background="#f2f2f2">-->
+
+
+<!--            <ImageView-->
+<!--                android:id="@+id/plus"-->
+<!--                android:layout_width="17dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/ic_plus"-->
+<!--                android:paddingLeft="4dp"-->
+<!--                android:paddingRight="4dp"-->
+<!--                android:layout_gravity="center"/>-->
+
+<!--        </FrameLayout>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:visibility="gone"
+            android:id="@+id/logo_wish"
+            android:layout_width="@dimen/_100ssp"
+            android:layout_height="@dimen/_100ssp"
+            android:layout_centerInParent="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/cart_empty" />
+
+        <RelativeLayout
+            android:id="@+id/rl_tool"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40ssp"
+            android:background="@drawable/toolbar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/Cart"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/rl_tool"
+            android:visibility="gone"
+            android:id="@+id/rl_strip"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50ssp"
+            android:background="@drawable/strip">
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10ssp"
+                android:fontFamily="@font/futura_md_bt"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp"></TextView>
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/place_order"></ImageView>
+
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:background="@color/light_app_theme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl_strip">
+
+            <LinearLayout
+                android:paddingBottom="@dimen/_70ssp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_margin="@dimen/_5ssp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclerview"/>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/ll_bag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8.5dp"
+                    android:layout_marginRight="8.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/white_light_rect"
+                    android:layout_marginBottom="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"
+                            android:layout_margin="@dimen/_10ssp"
+                            android:text="Bag Total"
+                            android:textColor="@color/black"></TextView>
+
+                        <RelativeLayout
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:text="Total MRP"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                            <TextView
+                                android:id="@+id/tvMrp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/_10ssp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:text="Total Discount"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                            <TextView
+                                android:id="@+id/tvTotalDiscount"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/_10ssp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:text="Selling Price"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                            <TextView
+                                android:id="@+id/tvTotlalSellingBag"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/_10ssp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:text="Shipping Fee"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#617282"></TextView>
+
+                            <TextView
+                                android:id="@+id/tvshippingFee"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/_10ssp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto"
+                                android:text="Free"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="#00FF00"></TextView>
+
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_marginLeft="@dimen/_10ssp"
+                            android:layout_marginRight="@dimen/_10ssp"
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#617282"
+                            android:layout_marginBottom="@dimen/_10ssp"></View>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/futura_md_bt"
+                                android:text="Amount Payable"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_13ssp"
+                                android:textColor="@color/black"></TextView>
+
+                            <TextView
+                                android:id="@+id/tvTotalBag"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="@dimen/_10ssp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/futura_md_bt"
+                                android:layout_marginLeft="@dimen/_10ssp"
+                                android:textSize="@dimen/_13ssp"
+                                android:textColor="@color/black"></TextView>
+
+                        </RelativeLayout>
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+    </RelativeLayout>
+
+</layout>

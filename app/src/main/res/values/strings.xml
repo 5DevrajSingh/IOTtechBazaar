@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">IOTtech Bazaar</string>
+    <string name="content_profile">Profile</string>
+    <string name="content_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_favorite">Cart</string>
+    <string name="WishList">WishList</string>
+    <string name="count_update">50</string>
+    <string name="slow_network_connection">slow network connection</string>
+    <string name="please_check_your_internet">please check your Internet</string>
+
+    <string name="mask_character">\u2022</string>
+    <string name="style_square">square_box</string>
+    <string name="style_rounded">rounded_box</string>
+    <string name="style_underline">underline</string>
+    <string name="style_rounded_underline">rounded_underline</string>
+    <string name="Mobile">Contact No.</string>
+    <string name="Please_Check_Your_Internet">please check your Internet</string>
+    <string name="Removed_from_Wishlist">removed from wishlist</string>
+    <string name="Product_added_in_Wishlist">product added in wishlist</string>
+    <string name="Invalid_Number">Invalid Number</string>
+    <string name="Otp_is_sent_on_your_phone">Otp is sent on your phone</string>
+    <string name="Please_try_with_another_number">please try with another number</string>
+    <string name="OTP_is_verified_sucessfully">OTP is verified successfully</string>
+    <string name="please_enter_the_valid_OTP">please enter the valid OTP</string>
+    <string name="Out_of_Stock">Out of Stock</string>
+    <string name="In_Stock">In Stock</string>
+    <string name="Sorry_cant_add_more_than">Sorry can\'t add more than</string>
+    <string name="Sorry_product_is_out_of_stock">Sorry product is out of stock</string>
+    <string name="quantity_of_a_product">quantity of a product</string>
+    <string name="product_is_out_of_stock">Sorry product is out of stock</string>
+    <string name="added_in_cart_done">added in cart done</string>
+    <string name="Cart">Cart</string>
+    <string name="Product_Removed_sucessfully">Product removed sucessfully</string>
+
+</resources>

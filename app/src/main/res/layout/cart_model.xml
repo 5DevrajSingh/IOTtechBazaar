@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/white_light_rect"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ac"/>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:fontFamily="@font/futura_md_bt"
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13.3sp"
+                    android:textColor="@color/black"
+                    android:text="Vigo Atom + Personal Air
+conditioner, white color"/>
+
+
+                <TextView
+                    android:id="@+id/tv_cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#8b8a8a"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/_2ssp"
+                        android:id="@+id/tv_selling_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/artifika"
+                        android:text="Rs. 8,999"
+                        android:textColor="#4ca0a4"
+                        android:textSize="@dimen/_13ssp" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_5ssp"
+                        android:layout_marginTop="@dimen/_2ssp"
+                        android:id="@+id/tv_actual_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/artifika"
+                        android:text="Rs. 8,999"
+                        android:textColor="#7c7b7b"
+                        android:textSize="@dimen/_11ssp" />
+
+                </LinearLayout>
+
+
+
+
+
+                <com.androidproject.iottechbazaar.util.QuickPickerZero
+                    android:id="@+id/quantityPicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aldrich"
+                    app:buttonColor="#4fcbd1"
+                    app:minQuantity="1"
+                    app:quantityColor="#018d93"
+                    app:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginBottom="@dimen/_5ssp"
+                    android:id="@+id/tv_stock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/abril_fatface"
+                    android:text="In Stock"
+                    android:textColor="#4CAF50"
+                    android:textSize="@dimen/_10ssp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:orientation="vertical">
+
+                <!--<ImageView-->
+                <!--android:layout_width="15dp"-->
+                <!--android:layout_height="15dp"-->
+                <!--android:src="@drawable/three_dots"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:layout_gravity="right" />-->
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:visibility="gone"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:button="@drawable/checkbox_background"
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/chkSelected"
+                        android:layout_width="@dimen/_20ssp"
+                        android:layout_height="@dimen/_20ssp" />
+
+                    <ImageView
+                        android:id="@+id/delete"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:src="@drawable/delete"
+                        android:tint="@color/buy_now" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/offer_red_rect"
+        android:fontFamily="@font/roboto"
+        android:paddingLeft="4dp"
+        android:paddingTop="2dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="2dp"
+        android:textColor="@color/white"
+        android:textSize="11.3sp"
+        android:text="20% OFF"/>
+
+</RelativeLayout>

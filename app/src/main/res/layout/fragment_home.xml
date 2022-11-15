@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".frag.HomeFragment">
+
+   <RelativeLayout
+       android:id="@+id/rl_home"
+       android:background="@color/white"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_marginBottom="@dimen/_50ssp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:background="@color/light_app_theme"
+          android:paddingBottom="@dimen/_20ssp">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/_40ssp"
+              android:background="@drawable/toolbar">
+
+              <ImageView
+                  android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:src="@drawable/logo_02"></ImageView>
+
+          </RelativeLayout>
+
+         <androidx.core.widget.NestedScrollView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+<!--               android:background="@drawable/offer2"-->
+               <ImageView
+                   android:id="@+id/banner_one"
+                   android:layout_width="match_parent"
+                   android:layout_height="180dp"
+                  />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:fontFamily="@font/roboto_bold"
+                      android:text="Catagories"
+                      android:textColor="@color/black" />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="@font/roboto"
+                      android:text="View More"
+                      android:textColor="@color/buy_now"
+                      android:textSize="13sp" />
+               </LinearLayout>
+
+               <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/favourit_recyclerview"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="@dimen/_2ssp"
+                   android:nestedScrollingEnabled="false"
+                   android:clipToPadding="false"/>
+
+<!--               android:background="@drawable/mobile"-->
+               <ImageView
+                   android:id="@+id/banner_two"
+                   android:layout_width="match_parent"
+                   android:layout_height="150dp"
+                   android:layout_margin="10dp"
+                   />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:orientation="horizontal">
+
+                  <TextView
+                      android:layout_weight="1"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/black"
+                      android:text="Trending"
+                      android:fontFamily="@font/roboto_bold"/>
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="View More"
+                      android:textSize="13sp"
+                      android:textColor="@color/buy_now"
+                      android:fontFamily="@font/roboto"/>
+               </LinearLayout>
+
+               <androidx.recyclerview.widget.RecyclerView
+                   android:id="@+id/trending_recyclerview"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:nestedScrollingEnabled="false"
+                   android:clipToPadding="false"/>
+
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="12dp"
+                   android:layout_marginBottom="12dp"
+                   android:orientation="vertical">
+
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+<!--                     android:background="@drawable/ac"-->
+                     <ImageView
+                         android:id="@+id/poster_one"
+                         android:layout_weight="1"
+                         android:layout_width="0dp"
+                         android:layout_height="120dp"
+                         />
+<!--                     android:background="@drawable/tv"-->
+                     <ImageView
+                         android:id="@+id/poster_two"
+                         android:layout_weight="1"
+                         android:layout_width="0dp"
+                         android:layout_height="120dp"
+                         />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+<!--                     android:background="@drawable/heater"-->
+                     <ImageView
+                         android:id="@+id/poster_three"
+                         android:layout_weight="1"
+                         android:layout_width="0dp"
+                         android:layout_height="120dp"
+                         />
+<!--                     android:background="@drawable/washing"-->
+                     <ImageView
+                         android:id="@+id/poster_four"
+                         android:layout_weight="1"
+                         android:layout_width="0dp"
+                         android:layout_height="120dp"
+                         />
+                  </LinearLayout>
+               </LinearLayout>
+
+            </LinearLayout>
+         </androidx.core.widget.NestedScrollView>
+
+      </LinearLayout>
+
+   </RelativeLayout>
+
+
+
+
+
+</layout>
